@@ -17,7 +17,8 @@ export default function Projects() {
                 title={proj.title}
                 link={proj.link}
                 imgUrl={proj.imgUrl}
-                number={`${idx + 1}`}
+                    number={`${idx + 1}`}
+                    key={proj.data}
                 />
             ))}
             </div>
